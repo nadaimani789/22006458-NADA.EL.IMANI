@@ -13,7 +13,7 @@
 
 ---
 <img width="200" height="800" alt="NADA" src="https://github.com/user-attachments/assets/eede592b-8bd4-44f6-b467-ed8a85053270" />
-**[PHOTO]** 
+
 
 
 ---
@@ -1012,86 +1012,8 @@ $\mathcal{L}(\phi) = \sum_{i} l(\hat{y}_i, y_i) + \sum_{k} \left[\gamma T_k + \f
 
 ---
 
-## 📌 Instructions pour Utilisation sur GitHub
-
-### Placement de votre Photo
-
-Remplacez la ligne `![Photo](placeholder-pour-photo.png)` par :
-
-```markdown
-![Votre Nom](chemin/vers/votre/photo.jpg)
-```
-
-Ou insérez directement une image locale dans votre dépôt GitHub :
-
-```markdown
-![Votre Nom](./assets/photo_profile.jpg)
-```
-
-### Nom et Lieu
-
-Modifiez les sections suivantes :
-
-```markdown
-**[VOTRE NOM]** → **Mohammed El Amrani**
-[votre.email@institution.ac.ma] → mohammed.elamrani@um5.ac.ma
-**[LIEU]** → **Casablanca, Maroc**
-```
-
-### Structure de Dépôt Recommandée
-
-```
-mon-projet-market-analysis/
-│
-├── README.md (ce document)
-├── code/
-│   └── market_trend_analysis.py
-├── data/
-│   └── market_trend_external_factors.csv
-├── assets/
-│   ├── photo_profile.jpg
-│   └── visualizations/
-│       ├── correlation_matrix.png
-│       ├── feature_importance.png
-│       └── predictions_vs_actual.png
-└── requirements.txt
-```
-
----
 
 **FIN DU RAPPORT**
 
 *Document généré pour projet académique - Data Science & Machine Learning*  
 *Reproductibilité garantie avec `random_state=42`*  
-*Contact : [Votre Email]*
-
----
-
-### Licence
-
-Ce rapport est fourni sous licence MIT. Vous êtes libre de le modifier, distribuer et utiliser à des fins académiques ou commerciales..1 Métriques
-
-| Métrique | Valeur | Référence |
-|----------|--------|-----------|
-| **RMSE** | **2.34** | σ(Prix) = 31.57 → 7.4% d'erreur |
-| **MAE** | **1.87** | Erreur absolue moyenne |
-| **R² Score** | **0.9356** | 93.56% de variance expliquée |
-| **MAPE** | **1.86%** | Erreur relative très faible |
-
-**Interprétation :**  
-Le modèle explique 93.56% de la variabilité des prix futurs. L'erreur moyenne est de seulement 1.87$ sur un prix moyen de 100.45$, soit moins de 2% d'erreur relative.
-
-#### 7.2.2 Analyse Visuelle
-
-**Graphique Prédictions vs Réalité :**
-- Alignement quasi-parfait sur la diagonale de prédiction parfaite
-- Quelques déviations lors de mouvements de prix extrêmes (volatilité élevée)
-- Sous-estimation légère des prix supérieurs à 150$
-
-**Graphique des Résidus :**
-- Distribution centrée sur 0 (moyenne : -0.03)
-- Écart-type : 2.35
-- Pas de pattern systématique → Modèle non biaisé
-- Quelques outliers lors d'événements économiques majeurs
-
-#### 7.2
